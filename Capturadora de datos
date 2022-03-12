@@ -1,10 +1,58 @@
-- 👋 Hi, I’m @aa951021
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+using System;
 
-<!---
-aa951021/aa951021 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+namespace capturadoraDeDatos
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write(" Nombre : ");
+            string Nombre1 = Console.ReadLine();
+
+            Console.Write(" numero de cuenta: ");
+            string cuenta1Texto = Console.ReadLine();
+            int cuenta1 = Convert.ToInt32(cuenta1Texto);
+
+            Console.Write(" Promedio: ");
+            string Promedio1texto = Console.ReadLine();
+            float Promedio1 = float.Parse(Promedio1texto);
+
+            Console.Write("2 Nombre : ");
+            string Nombre2 = Console.ReadLine();
+
+            Console.Write("2 numero de cuenta: ");
+            string cuenta2Texto = Console.ReadLine();
+            int cuenta2 = Convert.ToInt32(cuenta2Texto);
+
+            Console.Write("2 Promedio : ");
+            string Promedio2texto = Console.ReadLine();
+            float Promedio2 = float.Parse(Promedio2texto);
+
+            Console.Write("3 Nombre : ");
+            string Nombre3 = Console.ReadLine();
+
+            Console.Write("3 numero de cuenta: ");
+            string cuenta3Texto = Console.ReadLine();
+            int cuenta3 = Convert.ToInt32(cuenta3Texto);
+
+            Console.Write("3 Promedio: ");
+            string Promedio3texto = Console.ReadLine();
+            float Promedio3 = float.Parse(Promedio3texto);
+
+            Console.Write("LOS DATOS DEL EQUIPO SON: \n ");
+
+            Console.WriteLine("alumno1 Nombre :  " + Nombre1);
+	        Console.WriteLine("tu numero de cuenta es: " + cuenta1);
+	        Console.WriteLine("tu promedio es "+  Promedio1);
+			
+            Console.WriteLine("alumno2 Nombre :  " + Nombre2);
+	        Console.WriteLine("tu numero de cuenta es: " + cuenta2);
+	        Console.WriteLine("tu promedio es "+  Promedio2);
+			
+            Console.WriteLine("alumno3 Nombre :  " + Nombre3);
+	        Console.WriteLine("tu numero de cuenta es: " + cuenta3);
+	        Console.WriteLine("tu promedio es "+  Promedio3);
+			
+        }
+    }
+}
